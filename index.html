@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1337NEET</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("background.png") repeat;
+        background-size: 1024px auto;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .graffiti {
+        width: 90%;
+        max-width: 600px;
+        height: auto;
+        background: transparent;
+        display: block;
+      }
+
+      @media (max-width: 480px) {
+        body {
+          background-size: 100px auto;
+        }
+
+        .graffiti {
+          width: 95%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="1337.png" alt="1337NEET" class="graffiti" />
+  </body>
+</html>
